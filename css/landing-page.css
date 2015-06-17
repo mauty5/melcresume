@@ -133,19 +133,6 @@ h1 {
     letter-spacing: 2px;
 }
 
-/*
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-}
-*/
-
-
 
 .img-centered {
     margin: 0 auto;
@@ -251,6 +238,7 @@ section h2 {
 
 section.success {
     background: #fff;
+    font-size: 18px;
 }
 
 section.success a,
@@ -263,6 +251,7 @@ section.success a.active {
     border-width: medium;
     color: #60047a;
     font-family: 'ostrich-bold';
+    margin-top: 50px;
 }
 
 @media(max-width:767px) {
@@ -308,6 +297,10 @@ section.success a.active {
 #portfolio h2 { 
     background: #fff;
     padding-bottom: 60px;
+}
+
+.lcList {
+    list-style: none;
 }
 
 #portfolio .portfolio-item {
