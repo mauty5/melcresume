@@ -584,3 +584,31 @@ footer ul li a:hover {
     display: none;
     opacity: 0;
 }
+
+input[placeholder] { 
+    color: white;
+}
+
+textarea[placeholder] { 
+    color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white!important;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white!important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white!important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    white!important;
+}
+
+
+
+
+
+
